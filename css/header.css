@@ -1,0 +1,131 @@
+.container-header{
+  width: 90%;
+  height: 8rem;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fff;
+    
+}
+  
+  
+#logo{
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #272727;
+  transition: 0.3s;
+}
+
+.container-nav{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+
+#menu{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 1.4rem;
+}
+  
+#menu a{
+  display: block;
+  padding: .5rem;
+  color: #272727;
+  font-size: 1.6rem;
+}
+  
+#menu li::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #2B9CED;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+  
+#menu li:hover::after {
+  transform: scaleX(1);
+}
+  
+nav{
+  font-family: sans-serif;
+
+} 
+
+.btn-contato{
+  background: #2B9CED;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+/* ===================== HOME ===================== */
+
+
+.container-home{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  
+}
+
+.col-1{
+  width: 50%;
+  height: 13rem;
+}
+
+.col-1 h1{
+  font-size: 3.7rem;
+  font-weight: bold;
+  color: #1A1A1A;
+}
+
+.btn-saibamais{
+  margin-top: 2rem;
+  
+}
+.btn-saibamais a{
+  font-size: 1.2rem;
+  background: #2B9CED;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: #fff;
+  
+}
+
+
+.col-2{
+  padding: 1rem;
+}
+
+.containerImage{
+  display: flex;
+  gap: 1rem;
+
+  padding-top: 5rem;
+}
+
+.mask2{
+  padding-top: 8rem;
+}

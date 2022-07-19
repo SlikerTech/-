@@ -1,0 +1,169 @@
+.container-infoCard{
+    width: 90%;
+    /* background: #ccc; */
+
+    padding: 6rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10rem;
+    margin: auto;
+}
+
+/* ===================== Card_Info ===================== */
+
+
+.card-infoCard{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-infoCard h2{
+    margin: 1rem 0;
+    font-size: 1.9rem;
+}
+
+.card-infoCard p{
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #536379;
+}
+
+
+/* ===================== Sobre ===================== */
+
+.container-sobre{
+    width: 90%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: rgb(240, 240, 240);
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+
+.image-sobre img{
+    width: 100%;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+
+.info-sobre{
+    padding: 0 2rem;
+
+}
+
+.info-sobre h2{
+    margin: 2rem 0;
+    font-size: 3rem;
+    line-height: 46px;
+    font-weight: bold;
+    color: #1A1A1A; 
+}
+
+.info-sobre p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+}
+
+/* ===================== Serviços ===================== */
+
+
+.container-servicos{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.col-1{
+    width: 50%;
+    height: 13rem;
+}
+
+.col-1 h2{
+    font-size: 3rem;
+}
+
+.col-1 p{
+    color: #536379;
+    margin-bottom: 2rem;
+}
+
+.col-1 span{
+    color: #536379;
+}
+
+.exp-card{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.exp-card span{
+    margin-left: 1rem;
+}
+
+
+.cards{
+    width: 50rem;
+    height: 50rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-1{
+    width: 22rem;
+    height: 25rem;
+    box-shadow: 0px 5px 32px -9px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.cards h3{
+    margin: 2rem 0;
+    font-size: 1.9rem;
+    color: #1A1A1A;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.cards p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #536379;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.card-2 h3{
+    margin: 2rem 0;
+}
+
+.card{
+    width: 22rem;
+    height: 25rem;
+    padding: 2rem;
+    box-shadow: 0px 5px 32px -9px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card img{
+    width: 5rem;
+}
