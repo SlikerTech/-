@@ -1,0 +1,175 @@
+
+
+body{
+    max-height: 100vh;
+}
+
+
+header{
+    width: 100%;
+    z-index: 10;
+
+}
+
+.container-header{
+    width: 90%;
+    height: 4rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.image-contato img{
+    width: 3rem;
+}
+
+
+.btn-contato{
+    padding: .5rem 1rem;
+    background: #2B9CED;
+
+    border: 2px solid #fff;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btn-contato a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.im-fort-rigth{
+    z-index: -1;
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+
+.im-fort-left{
+    z-index: -1;
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+}
+
+.main{
+    
+    width: 70%;
+    margin: auto;
+    
+    background-color: #fff;
+    
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+    margin-top: 2rem;
+
+    z-index: 100;
+}
+
+
+.container-pag-contato{
+
+    padding: 1rem 4rem 4rem 4rem ;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.col-1-contato h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.col-1-contato span{
+    color:#536379 ;
+}
+
+.col-1-contato{
+    width: 100%;
+}
+
+.end-footer{
+    margin: 4rem 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+
+.social-contato{
+    display: flex;
+    gap: 1rem;
+}
+
+.col-2{
+    width: 90%;
+}
+
+.form-contato {
+    width: 85%;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    text-align: center;
+  
+    margin-top: 2rem;
+
+    padding: 0  2rem;
+
+  }
+
+    .form-contato span {
+        color: #536379;
+    }
+
+  .form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+  }
+  
+  .form-input input, textarea {
+    margin-top: 1rem;
+    font-size: 1rem;
+
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .form-input textarea {
+    height: 6rem;
+    resize: none;
+    overflow-y: hidden;
+  }
+
+  .button-form{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+
+    padding: .5rem 0;
+
+    border-radius: .5rem;
+    border: none;
+
+    background: #2B9CED;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }

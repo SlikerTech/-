@@ -203,6 +203,33 @@
         flex-direction: column;
         gap: 1rem;
     }
+    
+    .main{
+        width: 90%;
+    }
+
+    .container-pag-contato{
+        display: block;
+        text-align: center;
+
+    }
+    .im-fort-left{
+        display: none;
+    }
+    .social-contato{
+        justify-content: center;
+    }
+    .end-footer{
+        margin-left: 20% ;
+    }
+
+    .col-2{
+        width: 100%;
+        margin: auto;
+    }
+
+
+
 }
 
 
