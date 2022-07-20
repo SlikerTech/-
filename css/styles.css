@@ -1,5 +1,5 @@
 .container-infoCard{
-    width: 90%;
+    width: 85%;
     /* background: #ccc; */
 
     padding: 6rem 0;
@@ -76,36 +76,41 @@
 
 
 .container-servicos{
-    width: 80%;
-    height: 100vh;
+    width: 85%;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 10rem;
+    /* background: red; */
     display: flex;
     justify-content: space-between;
     align-items: center
 }
 
-.col-1{
-    width: 50%;
-    height: 13rem;
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
 }
 
-.col-1 h2{
+
+
+.col1 h2{
     font-size: 3rem;
 }
 
-.col-1 p{
+.col1 p{
     color: #536379;
     margin-bottom: 2rem;
 }
 
-.col-1 span{
+.col1 span{
     color: #536379;
 }
 
 .exp-card{
     display: flex;
     align-items: center;
+    
     margin-top: 1rem;
 }
 
@@ -114,15 +119,7 @@
 }
 
 
-.cards{
-    width: 50rem;
-    height: 50rem;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 2rem;
-}
 
 .card-1{
     width: 22rem;
@@ -141,7 +138,7 @@
 }
 
 .cards p{
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 22px;
     color: #536379;
 }
@@ -166,4 +163,144 @@
 
 .card img{
     width: 5rem;
+}
+
+
+/* ===================== Time ===================== */
+
+.container-time{
+    width: 90%;
+    margin: auto;
+
+    padding-top: 10rem;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.title span{
+    font-size: 1.2rem;
+    border-top: 1px solid #dfdfdf;
+    color: #536379;
+    padding-top: 1rem;
+
+}
+
+
+
+.cards-time{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+
+    padding: 2rem 0;
+}
+
+.card-time{
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 5px 8px 20px -3px rgba(0, 0, 0, 0.2);
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* border: 1px solid #ccc; */
+    border-radius: .5rem;
+}
+
+.card-time h3{
+    font-size: 2rem;
+}
+
+.card-time p{
+    font-size: 1.4rem;
+    color: #536379;
+}
+
+
+/* ===================== Contato ===================== */
+
+
+.container-contato{
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    padding: 10rem 0;
+}
+
+.info-contato h3{
+    font-size: 2rem;
+}
+
+.info-contato span{
+    font-size: 1.4rem;
+}
+
+
+/* ===================== Footer ===================== */
+
+.container-footer{
+    background: #1A1A1A;
+    padding: 3rem 0 2rem;
+}
+
+.container-footer img{
+    margin-left: 10%;
+}
+
+.info-footer{
+    width: 80%;
+    margin: auto;
+
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.end-footer span{
+    color: #ffffff;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+.social{
+    cursor: pointer;
+}
+
+#copyright{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #D9D9D9;
 }
