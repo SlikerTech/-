@@ -79,7 +79,6 @@
     width: 85%;
     margin: auto;
     padding-top: 10rem;
-    /* background: red; */
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -174,6 +173,8 @@
 
     padding-top: 10rem;
 }
+
+
 
 .title{
     text-align: center;

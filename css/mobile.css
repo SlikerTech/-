@@ -184,6 +184,10 @@
         width: 90% ;
     }
 
+    .image-time{
+        margin-right: 2em;
+    }
+
     .container-contato{
         width: 90%;
         display: block;
@@ -221,4 +225,7 @@
         height: 3rem;
     }
 
+    #copyright{
+        font-size: 1.2rem;
+    }
 }
