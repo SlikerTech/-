@@ -211,6 +211,7 @@
     .container-pag-contato{
         display: block;
         text-align: center;
+        padding: 2rem;
 
     }
     .im-fort-left{
@@ -220,7 +221,7 @@
         justify-content: center;
     }
     .end-footer{
-        margin-left: 20% ;
+        margin-left: 25% ;
     }
 
     .col-2{
